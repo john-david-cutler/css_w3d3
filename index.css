@@ -1,0 +1,104 @@
+div, body, html {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+#TopContainer {
+    background: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg) center center no-repeat;
+    height:400px;
+    width:100%;
+    background-size:cover;
+    background-position:center;  
+    box-sizing: border-box;  
+}
+
+#TopBar {
+    padding:10px;
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px solid white;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+#TopBar a {
+    text-decoration: none;
+    color:white;
+    padding:10px;
+}
+
+#TopWhiteUnderline {
+    background-color: white;
+    height:1px;
+    width:60%;
+}
+
+#TopMiddleContainer {
+    display:flex;
+    justify-content:space-around;
+    text-align: center;
+    margin-top:100px;
+    color:white;
+}
+
+#MiddleWhiteUnderline {
+    background-color: white;
+    height:1px;
+    width:60%;
+    margin:0 auto;
+}
+
+.PictureLeftContainer {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.PictureRightContainer {
+    display:flex;
+    justify-content:flex-end;
+}
+
+#Picture02 {
+    background: url(human-holding-a-bread-745988.jpg) center center no-repeat;
+    height:400px;
+    width:40%;
+    background-size:cover;
+    background-position:center;        
+}
+
+#Picture03 {
+    background: url(green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg) center center no-repeat;
+    height:400px;
+    width: 40%;
+    background-size:cover;
+    background-position:center;        
+}
+
+#Picture04 {
+    background: url(cooked-pasta-on-brown-wooden-bowl-803963.jpg) center center no-repeat;
+    height:400px;
+    width:40%;
+    background-size:cover;
+    background-position:center;        
+}
+
+.PictureText {
+    Color:white;
+    background-color: black;
+    height:400px;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#PictureTextDarker {
+    background-color: #333333;
+}
